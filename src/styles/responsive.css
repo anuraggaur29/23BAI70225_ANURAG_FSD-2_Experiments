@@ -1,0 +1,70 @@
+/*
+  RESPONSIVE — Gaming RGB Theme
+  Experiment 4 | Anurag (23BAI70225)
+*/
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .home-hero .hero-name {
+    letter-spacing: 4px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fav-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fav-search {
+    width: 100%;
+  }
+
+  .fav-controls {
+    flex-direction: column;
+  }
+
+  .exp-modal {
+    padding: 24px 20px;
+    margin: 16px;
+    width: calc(100% - 32px);
+  }
+
+  .exp-modal .student-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-inner {
+    padding: 0 16px;
+  }
+
+  .page-container {
+    padding-top: 70px;
+  }
+
+  .home-hero {
+    padding: 24px 16px;
+  }
+
+  .features-section {
+    padding: 0 16px 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

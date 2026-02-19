@@ -1,0 +1,18 @@
+/*
+  CSS VARIABLES — Gaming RGB Theme
+  Experiment 4 | Anurag (23BAI70225)
+*/
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent-cyan: #00f0ff;
+  --accent-magenta: #ff00e5;
+  --accent-green: #39ff14;
+  --accent-red: #ff003c;
+  --accent-yellow: #ffe600;
+  --font-heading: 'Orbitron', monospace;
+  --font-body: 'Rajdhani', sans-serif;
+}
