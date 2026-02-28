@@ -1,0 +1,28 @@
+/*
+  CSS VARIABLES — Gaming RGB Theme
+  Experiment 5 | Anurag (23BAI70225)
+  Supports dark/light themes via Context API
+*/
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #161616;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --accent-cyan: #00f0ff;
+  --accent-magenta: #ff00e5;
+  --accent-green: #39ff14;
+  --accent-red: #ff003c;
+  --accent-yellow: #ffe600;
+  --font-heading: 'Orbitron', monospace;
+  --font-body: 'Rajdhani', sans-serif;
+}
+
+/* Light theme overrides */
+[data-theme="light"] {
+  --bg-primary: #f0f2f5;
+  --bg-secondary: #e4e6eb;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #555566;
+}

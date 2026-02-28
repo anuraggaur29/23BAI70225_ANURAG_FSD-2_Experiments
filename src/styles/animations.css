@@ -1,0 +1,94 @@
+/*
+  ANIMATIONS — Gaming RGB
+  Experiment 5 | Anurag (23BAI70225)
+*/
+
+@keyframes rgbBorder {
+  0%   { border-color: #00f0ff; box-shadow: 0 0 12px #00f0ff55; }
+  25%  { border-color: #ff00e5; box-shadow: 0 0 12px #ff00e555; }
+  50%  { border-color: #39ff14; box-shadow: 0 0 12px #39ff1455; }
+  75%  { border-color: #ffe600; box-shadow: 0 0 12px #ffe60055; }
+  100% { border-color: #00f0ff; box-shadow: 0 0 12px #00f0ff55; }
+}
+
+@keyframes rgbText {
+  0%   { color: #00f0ff; text-shadow: 0 0 18px #00f0ff88; }
+  25%  { color: #ff00e5; text-shadow: 0 0 18px #ff00e588; }
+  50%  { color: #39ff14; text-shadow: 0 0 18px #39ff1488; }
+  75%  { color: #ffe600; text-shadow: 0 0 18px #ffe60088; }
+  100% { color: #00f0ff; text-shadow: 0 0 18px #00f0ff88; }
+}
+
+@keyframes rgbBg {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 8px #00f0ff44; }
+  50%      { box-shadow: 0 0 24px #00f0ff88, 0 0 48px #ff00e544; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.7; }
+}
+
+@keyframes scanline {
+  0%   { top: -10%; }
+  100% { top: 110%; }
+}
+
+@keyframes rgbLine {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes progressPulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.7; }
+}
+
+/* Cloud animations */
+@keyframes cloudFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+
+@keyframes cloudFadeIn {
+  from { opacity: 0; transform: scale(0.7) translateY(30px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes cloudGlow {
+  0%   { box-shadow: 0 8px 40px rgba(0, 240, 255, 0.15), inset 0 0 60px rgba(0, 240, 255, 0.03); }
+  33%  { box-shadow: 0 8px 40px rgba(255, 0, 229, 0.15), inset 0 0 60px rgba(255, 0, 229, 0.03); }
+  66%  { box-shadow: 0 8px 40px rgba(57, 255, 20, 0.15), inset 0 0 60px rgba(57, 255, 20, 0.03); }
+  100% { box-shadow: 0 8px 40px rgba(0, 240, 255, 0.15), inset 0 0 60px rgba(0, 240, 255, 0.03); }
+}
+
+@keyframes cloudItemSlide {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes cloudTitlePop {
+  0%   { opacity: 0; transform: scale(0.5); }
+  60%  { transform: scale(1.1); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes cloudSparkle {
+  0%, 100% { opacity: 0; }
+  50%      { opacity: 1; }
+}
