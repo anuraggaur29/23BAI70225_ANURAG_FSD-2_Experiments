@@ -1,6 +1,6 @@
 # Experiment 6 - JWT Authentication Backend (Spring Boot)
 
-Deadline: 17 March 2026
+
 
 This project implements JWT-based authentication using Spring Boot, Spring Security, and H2 database.
 
