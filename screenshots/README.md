@@ -9,3 +9,7 @@ Required screenshots:
 
 Optional:
 4. `04-register-new-user.png` - POST `/api/auth/register` response.
+
+Live deployment screenshots added:
+5. `render-home.png` - Render live root URL response.
+6. `render-health.png` - Render live `/api/health` response.

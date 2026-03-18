@@ -71,6 +71,11 @@ Server runs on:
 
 - `http://localhost:5000`
 
+## Live Links
+
+- Home: `https://exp-6-fsd-anurag-23bai70225.onrender.com/`
+- Health Check: `https://exp-6-fsd-anurag-23bai70225.onrender.com/api/health`
+
 ## Live Deployment
 
 Use `Render` for this project, not `Netlify`.
@@ -177,6 +182,16 @@ Store all screenshots inside `screenshots/`:
 1. Successful login and token in response.
 2. Protected route success using bearer token.
 3. Logout + invalid token behavior (or unauthorized access after invalidation).
+
+## Deployment Screenshots
+
+### Live Home Route
+
+![Live home route](screenshots/render-home.png)
+
+### Live Health Route
+
+![Live health route](screenshots/render-health.png)
 
 ## GitHub Notes
 
