@@ -82,11 +82,9 @@ Use `Render` for this project, not `Netlify`.
 
 1. Push this project to GitHub.
 2. In Render, create a new `Web Service` from the GitHub repo.
-3. Use these settings:
-   - Runtime: `Java`
-   - Build Command: `mvn clean package -DskipTests`
-   - Start Command: `java -jar target/jwt-auth-backend-0.0.1-SNAPSHOT.jar`
-4. Add environment variables if needed:
+3. Set `Language` to `Docker`.
+4. Keep build and start commands empty, because Render will use the included `Dockerfile`.
+5. Add environment variables if needed:
    - `JWT_SECRET`
    - `JWT_EXPIRATION_MS`
 
