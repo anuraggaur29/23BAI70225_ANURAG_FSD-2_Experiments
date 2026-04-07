@@ -68,26 +68,37 @@ Base URL: `http://localhost:8080`
 ## Project Structure
 ```text
 src/
-â”œâ”€ main/
-â”‚  â”œâ”€ java/com/example/experiment7/
-â”‚  â”‚  â”œâ”€ config/
-â”‚  â”‚  â”œâ”€ controller/
-â”‚  â”‚  â”œâ”€ dto/
-â”‚  â”‚  â”œâ”€ entity/
-â”‚  â”‚  â”œâ”€ repository/
-â”‚  â”‚  â”œâ”€ service/
-â”‚  â”‚  â””â”€ Experiment7Application.java
-â”‚  â””â”€ resources/
-â”‚     â”œâ”€ application.properties
-â”‚     â””â”€ data.sql
-â””â”€ test/
+|- main/
+|  |- java/com/example/experiment7/
+|  |  |- config/
+|  |  |- controller/
+|  |  |- dto/
+|  |  |- entity/
+|  |  |- repository/
+|  |  |- service/
+|  |  `- Experiment7Application.java
+|  `- resources/
+|     |- application.properties
+|     `- data.sql
+`- test/
 ```
 
-## Screenshot Checklist
-Store files in `screenshots/`:
-- `01-login-success.png`
-- `02-user-endpoint-success.png`
-- `03-admin-endpoint-success.png`
-- `04-access-denied.png`
-- `05-unauthorized-no-token.png` *(optional)*
-- `06-project-structure.png` *(optional)*
+## Screenshots
+
+### 1) Login Success
+![01-login-success](screenshots/01-login-success.png)
+
+### 2) USER Accessing User Endpoint
+![02-user-endpoint-success](screenshots/02-user-endpoint-success.png)
+
+### 3) USER Blocked on Admin Endpoint (403)
+![03-user-forbidden-admin](screenshots/03-user-forbidden-admin.png)
+
+### 4) ADMIN Accessing Admin Endpoint
+![04-admin-endpoint-success](screenshots/04-admin-endpoint-success.png)
+
+### 5) No Authentication (401)
+![05-unauthorized-no-auth](screenshots/05-unauthorized-no-auth.png)
+
+### 6) Project Structure
+![06-project-structure](screenshots/06-project-structure.png)
