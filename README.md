@@ -109,15 +109,19 @@ sessionStorage.removeItem("token");
 sessionStorage.removeItem("username");
 ```
 
-## Required Screenshots Checklist
+## Screenshots
 
-Add 2-6 screenshots in `screenshots/`:
+### Login Page
 
-1. Login UI
-2. Token visible in sessionStorage
-3. Protected API success on dashboard
-4. Unauthorized redirect when no token
-5. Logout flow
+![Login Page](./screenshots/Screenshot%202026-04-17%20010506.png)
+
+### Successful Login / Dashboard
+
+![Successful Login Dashboard](./screenshots/Screenshot%202026-04-17%20010529.png)
+
+### Protected API Access Success
+
+![Protected API Access](./screenshots/Screenshot%202026-04-17%20010535.png)
 
 ## Submission Notes
 
