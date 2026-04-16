@@ -115,16 +115,35 @@ headers: { Authorization: `Basic ${basicToken}` };
 sessionStorage.clear();
 ```
 
-## Required Screenshots Checklist
+## Screenshots
 
-Add 2-6 screenshots in `screenshots/`:
+### Login Page
 
-1. Login UI
-2. USER access to user endpoint
-3. USER denied access to admin endpoint
-4. ADMIN access to admin endpoint
-5. Session storage with role
-6. Unauthorized/redirect behavior
+![Login Page](./screenshots/Screenshot%202026-04-17%20011202.png)
+
+### USER Dashboard Access
+
+![USER Dashboard Access](./screenshots/Screenshot%202026-04-17%20011441.png)
+
+### USER Forbidden on ADMIN Route
+
+![USER Forbidden on ADMIN Route](./screenshots/Screenshot%202026-04-17%20011456.png)
+
+### ADMIN Dashboard Access
+
+![ADMIN Dashboard Access](./screenshots/Screenshot%202026-04-17%20011516.png)
+
+### Session Storage (Role/User)
+
+![Session Storage Role User](./screenshots/Screenshot%202026-04-17%20011535.png)
+
+### Unauthorized / Redirect Flow
+
+![Unauthorized Redirect Flow](./screenshots/Screenshot%202026-04-17%20011543.png)
+
+### Additional Verification
+
+![Additional Verification](./screenshots/Screenshot%202026-04-17%20011623.png)
 
 ## Submission Notes
 
