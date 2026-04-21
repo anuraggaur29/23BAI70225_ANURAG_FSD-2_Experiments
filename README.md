@@ -4,8 +4,8 @@ Main repository for the FSD-2 experiment submissions of Anurag Gaur.
 
 ## Student Details
 
-- Name: Anurag Gaur
-- Registration Number: 23BAI70225
+- Name: Anurag
+- UID: 23BAI70225
 - Course: Full Stack Development - 2
 
 ## Repository Structure
