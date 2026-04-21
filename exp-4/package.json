@@ -1,0 +1,30 @@
+{
+  "name": "23bai70225-exp4-anurag",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Anurag (UID: 23BAI70225, Section: 23AML-6B)",
+  "description": "Experiment 4 - Context API, useReducer, useMemo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "terser": "^5.46.0",
+    "vite": "^5.0.12"
+  }
+}
