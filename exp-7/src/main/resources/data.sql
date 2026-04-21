@@ -1,0 +1,2 @@
+-- Optional SQL seed file for Experiment 7.
+-- Users are seeded in DataInitializer.java with BCrypt encoded passwords.
