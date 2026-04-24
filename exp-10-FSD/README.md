@@ -45,6 +45,16 @@ Backend URL: `http://localhost:5000`
 
 `http://localhost:5000/api/students`
 
-## Latest Screenshot
+## Screenshots
 
-![Latest Output](./experiment10/screenshots/img_2.png)
+### MongoDB / Backend Output
+![MongoDB Backend Output](./experiment10/screenshots/mongodb-exp10-output.jpeg)
+
+### API Output 1
+![API Output 1](./experiment10/screenshots/img.png)
+
+### API Output 2
+![API Output 2](./experiment10/screenshots/img_1.png)
+
+### API Output 3
+![API Output 3](./experiment10/screenshots/img_2.png)
