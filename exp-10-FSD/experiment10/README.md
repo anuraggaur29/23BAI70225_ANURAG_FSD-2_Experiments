@@ -77,24 +77,18 @@ Base URL: `http://localhost:5000/api/students`
 - Method: `DELETE`
 - URL: `/api/students/:id`
 
-## Required Screenshots
-### 1. MongoDB Connected Message
-![MongoDB Connected Message](./screenshots/mongodb-connected-message.png)
+## Screenshots
+### 1. MongoDB / Backend Output
+![MongoDB and Backend Output](./screenshots/mongodb-exp10-output.jpeg)
 
-### 2. Create Record API Success
-![Create Record API Success](./screenshots/create-record-api-success.png)
+### 2. API Test Output 1
+![API Test Output 1](./screenshots/img.png)
 
-### 3. Read All Records Output
-![Read All Records Output](./screenshots/read-all-records-output.png)
+### 3. API Test Output 2
+![API Test Output 2](./screenshots/img_1.png)
 
-### 4. Update Record Success
-![Update Record Success](./screenshots/update-record-success.png)
-
-### 5. Delete Record Success
-![Delete Record Success](./screenshots/delete-record-success.png)
-
-### 6. Database Collection View
-![Database Collection View](./screenshots/database-collection-view.png)
+### 4. API Test Output 3 (Latest)
+![API Test Output 3](./screenshots/img_2.png)
 
 ## Notes for Submission
 - Node.js and Express.js are used as backend
