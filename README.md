@@ -10,7 +10,7 @@ Main repository for the FSD-2 experiment submissions of Anurag Gaur.
 
 ## Repository Structure
 
-This repository combines experiments 2 to 9 into separate folders:
+This repository combines experiments 2 to 10 into separate folders:
 
 | Folder | Experiment Repository |
 | --- | --- |
@@ -22,6 +22,7 @@ This repository combines experiments 2 to 9 into separate folders:
 | `exp-7/` | [Exp-7_FSD_Anurag_23BAI70225](https://github.com/anuraggaur29/Exp-7_FSD_Anurag_23BAI70225) |
 | `exp-8/` | [Exp-8_FSD_Anurag_23BAI70225](https://github.com/anuraggaur29/Exp-8_FSD_Anurag_23BAI70225) |
 | `exp-9/` | [Exp-9_FSD_Anurag_23BAI70225](https://github.com/anuraggaur29/Exp-9_FSD_Anurag_23BAI70225) |
+| `exp-10-FSD/` | Full-stack frontend + backend project in this repository |
 
 ## Merge Method
 
